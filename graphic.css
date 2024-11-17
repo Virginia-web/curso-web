@@ -1,0 +1,48 @@
+.graphic {
+    position: relative;
+    display: flex;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.graphic img {
+    width: 50%;
+}
+
+.absolute{
+    position: absolute;
+}
+
+.graphic-circles {
+    height: 100%;
+    aspect-ratio: 1 / 1;
+}
+
+.graphic-circles img {
+    width: 100%;
+    height: 100%;
+    mix-blend-mode: screen;
+}
+
+.graphic-man {
+    z-index: 1;
+    border-radius: 50%;
+    width: 50%;
+  
+}
+
+.graphic-circles-1 {
+    animation: turn1 50s linear infinite;
+    border-radius: 50%;
+}
+.imgvicky{
+    border-radius: 50%;
+}
+
+@keyframes turn1 {
+    to{
+        transform: rotate(1turn);
+    }
+}
